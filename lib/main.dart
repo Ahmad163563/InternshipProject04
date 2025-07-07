@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project/LoginScreens/SplashScreen/splashscreen.dart';
+import 'package:project/LoginScreens/create_account/create_account.dart';
+import 'package:project/starting_/SplashScreen/splashscreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Splashscreen()
+      home: CreateAccount()//Splashscreen()
     );
   }
 }
