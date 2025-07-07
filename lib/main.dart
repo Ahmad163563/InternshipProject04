@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: CreatePassword()//VerifyEmail()//AddingEmail(currentStep: 1)//CreateAccount()//Splashscreen()
+      home: AccountCreation//CreatePassword()//VerifyEmail()//AddingEmail(currentStep: 1)//CreateAccount()//Splashscreen()
     );
   }
 }
