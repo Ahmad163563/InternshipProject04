@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project/SignUp_Screens/account_creation/account_creation.dart';
+import 'package:project/SignUp_Screens/apply_Screen/Problem_solver/problem_solver.dart';
+import 'package:project/SignUp_Screens/apply_Screen/apply%20screen.dart';
 import 'package:project/SignUp_Screens/create_pass/create_password.dart';
 
 import 'package:project/SignUp_Screens/verify_email/Verify_Email.dart';
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: AccountCreation()//CreatePassword()//VerifyEmail()//AddingEmail(currentStep: 1)//CreateAccount()//Splashscreen()
+      home: ProblemSolver()//ApplyScreen()//AccountCreation()//CreatePassword()//VerifyEmail()//AddingEmail(currentStep: 1)//CreateAccount()//Splashscreen()
     );
   }
 }

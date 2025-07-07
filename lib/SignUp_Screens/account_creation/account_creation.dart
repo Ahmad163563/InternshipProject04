@@ -15,9 +15,9 @@ class _AccountCreationState extends State<AccountCreation> {
     return Scaffold(
       body: Column(
         children: [
-          SizedBox(height: 100,),
-           Center(child: Image.asset('lib/assets/Vector.png')),
-          SizedBox(height: 70,),
+          SizedBox(height: 170,),
+           Center(child: Image.asset('lib/assets/Vector.png',)),
+          SizedBox(height: 96,),
           Center(
             child: Text('         your account\n was successfully created!',style: GoogleFonts.jost(
             fontSize: 24,
@@ -25,7 +25,7 @@ class _AccountCreationState extends State<AccountCreation> {
               color: Color(0xff27252E),
             ),),
           ),
-          SizedBox(height: 20,),
+          SizedBox(height: 30,),
           Center(
             child: CustomButton(text: 'Log in', onTap: (){}),
           ),
