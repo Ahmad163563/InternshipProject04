@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:project/LoginScreens/adding_email/Adding_Email.dart';
-import 'package:project/LoginScreens/create_account/create_account.dart';
-import 'package:project/LoginScreens/verify_email/Verify_Email.dart';
+import 'package:project/SignUp_Screens/create_pass/create_password.dart';
+
+import 'package:project/SignUp_Screens/verify_email/Verify_Email.dart';
 import 'package:project/starting_/SplashScreen/splashscreen.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: VerifyEmail()//AddingEmail(currentStep: 1)//CreateAccount()//Splashscreen()
+      home: CreatePassword()//VerifyEmail()//AddingEmail(currentStep: 1)//CreateAccount()//Splashscreen()
     );
   }
 }
