@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:project/LoginScreens/adding_email/Adding_Email.dart';
 import 'package:project/LoginScreens/create_account/create_account.dart';
 import 'package:project/starting_/SplashScreen/splashscreen.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: CreateAccount()//Splashscreen()
+      home: AddingEmail(currentStep: 1)//CreateAccount()//Splashscreen()
     );
   }
 }

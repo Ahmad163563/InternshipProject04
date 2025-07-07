@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class CustomButton extends StatelessWidget {
   final String text;
@@ -22,9 +23,11 @@ class CustomButton extends StatelessWidget {
           color: Color(0xff003366),
           borderRadius: BorderRadius.circular(12),
         ),
-        child: Text(
-          text,
-          style: TextStyle(color: Colors.white, fontSize: 16),
+        child: Center(
+          child: Text(
+            text,
+            style: GoogleFonts.jost(fontSize: 16,color: Color(0xffFFFFFF),fontWeight: FontWeight.bold )
+          ),
         ),
       ),
     );
