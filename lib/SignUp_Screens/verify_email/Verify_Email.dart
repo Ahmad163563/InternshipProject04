@@ -22,6 +22,23 @@ class VerifyEmail extends StatelessWidget {
               fontWeight: FontWeight.w400,
               color: Color(0xff27252E)
             ),),
+          ),
+           Row(
+             children: [
+               Text('Code',style: GoogleFonts.jost(fontWeight: FontWeight.w400,fontSize: 14,color: Color(0xff121A2C)),),
+             ],
+           ),
+          Row(
+            children: [
+              Container(
+                height: 48,
+                width: 70,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  border: Border.all()
+                ),
+              )
+            ],
           )
         ],
       ),
