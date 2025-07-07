@@ -20,7 +20,23 @@ class _ProblemSolverState extends State<ProblemSolver> {
         ),),
         centerTitle: true,
       ),
-      
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          SizedBox(width: 20,),
+          Text('Full Name'),
+          Center(
+            child: Container(
+              height: 45,
+              width: 341,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(15),
+                border: Border.all(color: Colors.grey)
+              ),
+            ),
+          )
+        ],
+      ),
     );
   }
 }
