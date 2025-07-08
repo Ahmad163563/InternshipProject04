@@ -87,6 +87,45 @@ class _Login4State extends State<Login4> {
               ),
             ),
           ),
+          SizedBox(height: 15,),
+          Row(
+            children: [
+              SizedBox(width: 20,),
+              Icon(Icons.error_outline,color: Colors.red,),
+              Text(' Oops!',style: GoogleFonts.roboto(
+                color: Colors.red,
+                fontSize: 16
+              ),),
+              Text(' Email',style: GoogleFonts.roboto(
+                color: Colors.red,
+                fontWeight: FontWeight.w600,
+                fontSize: 16
+              ),),
+              Text(' or',style: GoogleFonts.roboto(
+                color: Colors.red,
+                fontSize: 16
+              ),),
+              Text(' password',style: GoogleFonts.roboto(
+                color: Colors.red,
+                fontWeight: FontWeight.w600,
+                fontSize: 16
+              ),),
+              Text(' incorrect try',style: GoogleFonts.roboto(
+                fontSize: 16,
+                color: Colors.red
+              ),)
+            ],
+          ),
+          SizedBox(height: 5,),
+          Row(
+            children: [
+              SizedBox(width: 48,),
+              Text('another one',style: GoogleFonts.roboto(
+                fontSize: 16,
+                color: Colors.red
+              ),),
+            ],
+          ),
           SizedBox(height: 20,),
           Center(child: CustomButton(text: 'Log in', onTap: (){})),
           SizedBox(height: 20,),

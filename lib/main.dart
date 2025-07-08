@@ -15,6 +15,8 @@ import 'package:project/View/Home_View/home_view_1.dart';
 import 'package:project/View/Starting_View/starting_/SplashScreen/splashscreen.dart';
 
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:project/login_screen/reset_password5.dart';
+import 'package:project/login_screen/reset_password6.dart';
 import '';
 
 void main() {
@@ -28,24 +30,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-<<<<<<< HEAD
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Login4()//LoginIntoAccount()//Loginaccount()//LoginApplyScreen()//ProblemSeeker()//ProblemSolver()//ApplyScreen()//AccountCreation()//CreatePassword()//VerifyEmail()//AddingEmail(currentStep: 1)//CreateAccount()//Splashscreen()
+      home: ResetPassword6()//Login4()//LoginIntoAccount()//Loginaccount()//LoginApplyScreen()//ProblemSeeker()//ProblemSolver()//ApplyScreen()//AccountCreation()//CreatePassword()//VerifyEmail()//AddingEmail(currentStep: 1)//CreateAccount()//Splashscreen()
     );
   }}
-=======
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-          useMaterial3: true,
-        ),
-        home:
-            HomeView1() //ApplyScreen()//AccountCreation()//CreatePassword()//VerifyEmail()//AddingEmail(currentStep: 1)//CreateAccount()//Splashscreen()
-        );
-  }
-}
->>>>>>> 289b52ca24244ecb3f070f1a3851ad595957be76
+
