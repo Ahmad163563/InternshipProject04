@@ -5,6 +5,7 @@ import 'package:project/View/Auth_View/SignUp_Screens/apply_Screen/apply%20scree
 import 'package:project/View/Auth_View/SignUp_Screens/create_pass/create_password.dart';
 
 import 'package:project/View/Auth_View/SignUp_Screens/verify_email/Verify_Email.dart';
+import 'package:project/View/Home_View/home_view_1.dart';
 import 'package:project/View/Starting_View/starting_/SplashScreen/splashscreen.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
         ),
         home:
-            ProblemSolver() //ApplyScreen()//AccountCreation()//CreatePassword()//VerifyEmail()//AddingEmail(currentStep: 1)//CreateAccount()//Splashscreen()
+            HomeView1() //ApplyScreen()//AccountCreation()//CreatePassword()//VerifyEmail()//AddingEmail(currentStep: 1)//CreateAccount()//Splashscreen()
         );
   }
 }
