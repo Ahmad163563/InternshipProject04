@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:project/components/custom_button/custom_button.dart';
+import 'package:project/Controller/components/custom_button/custom_button.dart';
+
 
 class LoginApplyScreen extends StatefulWidget {
   const LoginApplyScreen({super.key});

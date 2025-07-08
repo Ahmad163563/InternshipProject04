@@ -2,20 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:project/Controller/components/custom_button/custom_button.dart';
 
-class ProblemSeeker extends StatefulWidget {
-  const ProblemSeeker({super.key});
+class ProblemSolver extends StatefulWidget {
+  const ProblemSolver({super.key});
 
   @override
-  State<ProblemSeeker> createState() => _ProblemSolverState();
+  State<ProblemSolver> createState() => _ProblemSolverState();
 }
 
-class _ProblemSolverState extends State<ProblemSeeker> {
+class _ProblemSolverState extends State<ProblemSolver> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
           title: Text(
-            'Problem Seeker',
+            'Problem Solver',
             style: GoogleFonts.jost(
                 fontWeight: FontWeight.w400, fontSize: 20, color: Colors.black),
           ),
