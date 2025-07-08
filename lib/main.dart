@@ -11,6 +11,7 @@ import 'package:project/View/Auth_View/SignUp_Screens/apply_Screen/apply%20scree
 import 'package:project/View/Auth_View/SignUp_Screens/create_pass/create_password.dart';
 
 import 'package:project/View/Auth_View/SignUp_Screens/verify_email/Verify_Email.dart';
+import 'package:project/View/Home_View/home_view_1.dart';
 import 'package:project/View/Starting_View/starting_/SplashScreen/splashscreen.dart';
 
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -27,6 +28,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+<<<<<<< HEAD
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
@@ -35,3 +37,15 @@ class MyApp extends StatelessWidget {
       home: Login4()//LoginIntoAccount()//Loginaccount()//LoginApplyScreen()//ProblemSeeker()//ProblemSolver()//ApplyScreen()//AccountCreation()//CreatePassword()//VerifyEmail()//AddingEmail(currentStep: 1)//CreateAccount()//Splashscreen()
     );
   }}
+=======
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          useMaterial3: true,
+        ),
+        home:
+            HomeView1() //ApplyScreen()//AccountCreation()//CreatePassword()//VerifyEmail()//AddingEmail(currentStep: 1)//CreateAccount()//Splashscreen()
+        );
+  }
+}
+>>>>>>> 289b52ca24244ecb3f070f1a3851ad595957be76
